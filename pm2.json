@@ -1,0 +1,20 @@
+{
+  "apps": [{
+    "name": "wegoshop",
+    "script": "development.js",
+    "cwd": "",
+    "exec_mode": "fork",
+    "watch": true,
+    "ignore_watch" : ["runtime"],
+    "watch_options": {
+        "followSymlinks": false
+    },
+    "max_memory_restart": "256M",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}
